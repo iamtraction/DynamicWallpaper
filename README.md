@@ -1,6 +1,6 @@
 # DynamicWallpaper
 DynamicWallpaper is a Python script that you can run in the background to
-make automatically change Windows wallpaper throught the day, every hour.
+automatically change Windows wallpaper throught the day, every hour.
 
 It's like the macOS dynamic wallpapers introduced in Mojave.
 
