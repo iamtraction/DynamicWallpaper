@@ -15,6 +15,15 @@ And all the packs should be inside the `packs` directory.
 
 ### Run at startup
 To run DynamicWallpaper at startup, follow these steps:
-- Go to the Startup directory:
+- Go to the **Startup** directory:
   `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
 - Create a shortcut to the `DynamicWallpaper.py` script.
+
+### Auto select wallpaper pack
+To automatically select a DynamicWallpaper Pack at start, follow these steps:
+- Right-Click on the `DynamicWallpaper.py` script's shortcut.
+- Go to **Properties**.
+- In the **Target** text box, add the name of your DynamicWallpaper Pack at the
+  end - right after `...\DynamicWallpaper.py` - separated by a space.
+
+  Example: `...\DynamicWallpaper.py Catalina`
