@@ -10,6 +10,10 @@ of the day) named as `00.jpg`, `01.jpg`, `02.jpg`, ... , `23.jpg`.
 Every collection should be inside a directory whose name is the pack's name.
 And all the packs should be inside the `packs` directory.
 
+One pack has already been provided, called `Clock`. You can use that or make
+your own as per the instructions above. Feel free to contribute your amazing
+DynamicWallpaper Packs by making a pull request.
+
 ## Usage
 - Clone/Download this repository.
 - Run the `DynamicWallpaper.py` script.
@@ -30,3 +34,5 @@ To automatically select a DynamicWallpaper Pack at start, follow these steps:
   end - right after `...\DynamicWallpaper.py` - separated by a space.
 
   Example: `...\DynamicWallpaper.py Clock`
+
+> If you liked this project, please give this repository a **Star** :star:
