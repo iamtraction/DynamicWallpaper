@@ -9,3 +9,12 @@ A DynamicWallpaper Pack is a collection of 24 wallpapers (representing 24 hours
 of the day) named as `00.jpg`, `01.jpg`, `02.jpg`, ... , `23.jpg`.
 Every collection should be inside a directory whose name is the pack's name.
 And all the packs should be inside the `packs` directory.
+
+
+## Tips & Tricks
+
+### Run at startup
+To run DynamicWallpaper at startup, follow these steps:
+- Go to the Startup directory:
+  `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
+- Create a shortcut to the `DynamicWallpaper.py` script.
