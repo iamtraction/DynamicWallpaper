@@ -19,7 +19,10 @@ def set_wall(index):
 
 if len(sys.argv) > 1:
     WALLPAPER_PACK = " ".join(sys.argv[1:])
-    WALLPAPER_PACK_PATH += "{0}".format(WALLPAPER_PACK)
+else:
+    WALLPAPER_PACK = input("Please enter the DynamicWallpaper pack: ")
+
+WALLPAPER_PACK_PATH += "{0}".format(WALLPAPER_PACK)
 
 if not os.path.isdir(WALLPAPER_PACK_PATH):
     print("The specified wallpaper pack - {0} - doesn't exist.".format(WALLPAPER_PACK))
