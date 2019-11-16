@@ -26,6 +26,8 @@ if not os.path.isdir(WALLPAPER_PACK_PATH):
     input("\nPress Enter to exit...")
     exit(1)
 
+print("DynamicWallpaper - {0} - is running...".format(WALLPAPER_PACK))
+
 while True:
     now = datetime.datetime.now()
     set_wall(now.hour)
