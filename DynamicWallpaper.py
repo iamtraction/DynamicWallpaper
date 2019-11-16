@@ -1,3 +1,11 @@
+"""
+DynamicWallpaper is a Python script that you can run in the background to
+automatically change Windows wallpaper throught the day, every hour.
+
+Author: Sankarsan Kampa
+License: GPLv3
+"""
+
 import ctypes
 import datetime
 import os
@@ -30,6 +38,9 @@ if not os.path.isdir(WALLPAPER_PACK_PATH):
     exit(1)
 
 print("DynamicWallpaper - {0} - is running...".format(WALLPAPER_PACK))
+print("\n\n")
+print("If you've any suggestions or you're facing any issues, feel free to open a ticket here:")
+print("https://github.com/k3rn31p4nic/DynamicWallpaper/issues")
 
 while True:
     now = datetime.datetime.now()
